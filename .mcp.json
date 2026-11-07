@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "highwire": {
+      "command": "npx",
+      "args": ["highwire"],
+      "env": {
+        "HIGHWIRE_HOME": "${HOME}/.highwire/launch-scout",
+        "HIGHWIRE_KEYPAIR_PATH": "${HOME}/.highwire/launch-scout/wallet.json"
+      }
+    }
+  }
+}
